@@ -1,0 +1,43 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch dice",
+            "request": "launch",
+            "mainClass": "com.java24hours.dice",
+            "projectName": "Java24Hours_7a0cb3e5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch BlankFiller",
+            "request": "launch",
+            "mainClass": "com.java24hours.BlankFiller",
+            "projectName": "Java24Hours_7a0cb3e5",
+            "args": "retromingent purple lactose-intolerant"
+        },
+        {
+            "type": "java",
+            "name": "Launch Root",
+            "request": "launch",
+            "mainClass": "com.java24hours.Root",
+            "projectName": "Java24Hours_7a0cb3e5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Saluton",
+            "request": "launch",
+            "mainClass": "com.java24hours.Saluton",
+            "projectName": "Java24Hours_7a0cb3e5"
+        }
+    ]
+}
