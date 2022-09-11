@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Thirteens",
+            "request": "launch",
+            "mainClass": "com.java24hours.Thirteens",
+            "projectName": "Java24Hours_fe3d00e6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Benchmark",
+            "request": "launch",
+            "mainClass": "com.java24hours.Benchmark",
+            "projectName": "Java24Hours_fe3d00e6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Nines",
+            "request": "launch",
+            "mainClass": "Nines",
+            "projectName": "Java24Hours_fe3d00e6"
+        },
+        {
+            "type": "java",
             "name": "Launch Grade",
             "request": "launch",
             "mainClass": "com.java24hours.Grade",
