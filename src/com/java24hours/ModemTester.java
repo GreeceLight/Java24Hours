@@ -1,7 +1,5 @@
 package com.java24hours;
 
-import java.time.chrono.HijrahChronology;
-
 public class ModemTester {
     public static void main(String[] args) {
         CableModem surfBoard = new CableModem();
