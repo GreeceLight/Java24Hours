@@ -1,3 +1,4 @@
+package com.java24hours;
 public class GremlinLab {
     public static void main(String[] args) {
         int numGremlins = Integer.parseInt(args[0]);

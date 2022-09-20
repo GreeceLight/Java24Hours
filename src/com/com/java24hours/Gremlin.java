@@ -1,3 +1,4 @@
+package com.java24hours;
 public class Gremlin {
     static int gremlinCount = 0;
     private static int guid = 42069;
