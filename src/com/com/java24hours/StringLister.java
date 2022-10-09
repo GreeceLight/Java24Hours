@@ -1,8 +1,6 @@
 package com.java24hours;
 
-import java.sql.Array;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
 public class StringLister {
@@ -23,6 +21,6 @@ public class StringLister {
     }
 
     public static void main(String[] args) {
-        StringLister lister = new StringLister(args);
+        new StringLister(args);
     }
 }

@@ -1,7 +1,5 @@
 package com.java24hours;
 
-import java.awt.*;
-
 public class Point4D extends Point3D{
     public int t;
 

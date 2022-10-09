@@ -6,7 +6,7 @@ import java.util.Map;
 public class Company {
     HashMap<String, String> employees = new HashMap<>();
 
-    public listEmails(){
+    public Company(){
         employees.put("Michael", "example1@gmail.com");
         employees.put("Reece", "example2@gmail.com");
         employees.put("Shaquille", "example3@gmail.com");
@@ -20,6 +20,6 @@ public class Company {
     }
 
     public static void main(String[] args) {
-        new listEmails();
+        new Company();
     }
 }
