@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PrimeHelper",
+            "request": "launch",
+            "mainClass": "com.java24hours.PrimeHelper",
+            "projectName": "Java24Hours_7a0cb3e5"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkRotator2",
+            "request": "launch",
+            "mainClass": "com.java24hours.LinkRotator2",
+            "projectName": "Java24Hours_7a0cb3e5"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkRotator",
+            "request": "launch",
+            "mainClass": "com.java24hours.LinkRotator",
+            "projectName": "Java24Hours_7a0cb3e5"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeFinder",
+            "request": "launch",
+            "mainClass": "com.java24hours.PrimeFinder",
+            "projectName": "Java24Hours_7a0cb3e5"
+        },
+        {
+            "type": "java",
             "name": "Launch Multiplier",
             "request": "launch",
             "mainClass": "com.java24hours.Multiplier",
