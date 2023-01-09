@@ -6,6 +6,52 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Multiplier",
+            "request": "launch",
+            "mainClass": "com.java24hours.Multiplier",
+            "projectName": "Java24Hours_7a0cb3e5",
+            "args": "2 3 4"
+        },
+        {
+            "type": "java",
+            "name": "Launch PageCatalog",
+            "request": "launch",
+            "mainClass": "com.java24hours.PageCatalog",
+            "projectName": "Java24Hours_7a0cb3e5"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberDivider",
+            "request": "launch",
+            "mainClass": "com.java24hours.NumberDivider",
+            "projectName": "Java24Hours_7a0cb3e5",
+            "args": "6 2.5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Calculator",
+            "request": "launch",
+            "mainClass": "com.java24hours.Calculator",
+            "projectName": "Java24Hours_7a0cb3e5",
+            "args": "1 3 5x"
+        },
+        {
+            "type": "java",
+            "name": "Launch Clock",
+            "request": "launch",
+            "mainClass": "com.java24hours.Clock",
+            "projectName": "Java24Hours_7a0cb3e5"
+        },
+        {
+            "type": "java",
+            "name": "Launch FontMapper",
+            "request": "launch",
+            "mainClass": "com.java24hours.FontMapper",
+            "projectName": "Java24Hours_7a0cb3e5",
+            "args": "footer Comic-Sans 2 32 last Arial 1 22"
+        },
+        {
+            "type": "java",
             "name": "Launch Company",
             "request": "launch",
             "mainClass": "com.java24hours.Company",

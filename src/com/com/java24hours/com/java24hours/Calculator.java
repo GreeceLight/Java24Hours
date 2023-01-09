@@ -2,7 +2,7 @@ package com.java24hours;
 
 public class Calculator {
     public static void main(String[] args) {
-        float sum = 1;
+        float sum = 0;
         for (String arg : args){
             try {
                 sum = sum + Float.parseFloat(arg);
