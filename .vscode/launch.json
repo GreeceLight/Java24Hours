@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LottoMadness2",
+            "request": "launch",
+            "mainClass": "com.java24hours.LottoMadness2",
+            "projectName": "Java24Hours_7a0cb3e5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Crisis2",
+            "request": "launch",
+            "mainClass": "com.java24hours.Crisis2",
+            "projectName": "Java24Hours_7a0cb3e5"
+        },
+        {
+            "type": "java",
+            "name": "Launch LottoMadness",
+            "request": "launch",
+            "mainClass": "com.java24hours.LottoMadness",
+            "projectName": "Java24Hours_7a0cb3e5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Crisis",
+            "request": "launch",
+            "mainClass": "com.java24hours.Crisis",
+            "projectName": "Java24Hours_7a0cb3e5"
+        },
+        {
+            "type": "java",
             "name": "Launch FreeSpaceFrame",
             "request": "launch",
             "mainClass": "com.java24hours.FreeSpaceFrame",
