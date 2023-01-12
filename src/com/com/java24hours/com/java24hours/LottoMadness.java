@@ -4,6 +4,8 @@ import javax.swing.*;
 import java.awt.*;
 
 public class LottoMadness extends JFrame{
+    LottoEvent lotto = new LottoEvent(this);
+
     //Set up Row 1
     JPanel row1 = new JPanel();
     ButtonGroup option = new ButtonGroup();
@@ -38,13 +40,24 @@ public class LottoMadness extends JFrame{
     JLabel yearsLabel = new JLabel("Years: ", JLabel.RIGHT);
     JTextField years = new JTextField();
 
+    //Set up Row 5
+    JPanel row5 = new JPanel();
+    JLabel rateLabel = new JLabel("Rate: ", JLabel.RIGHT);
+    JTextField rate = new JTextField("100           ");
+
     public LottoMadness(){
         super("Lotto Madness");
 
-        setSize(550, 400);
+        setSize(550, 500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        GridLayout layout = new GridLayout(5, 1, 10, 10);
+        GridLayout layout = new GridLayout(6, 1, 10, 10);
         setLayout(layout);
+
+        quickPick.addItemListener(lotto);
+        personal.addItemListener(lotto);
+        stop.addActionListener(lotto);
+        play.addActionListener(lotto);
+        reset.addActionListener(lotto);
 
         FlowLayout layout1 = new FlowLayout(FlowLayout.CENTER, 10, 10);
         option.add(quickPick);
@@ -98,6 +111,13 @@ public class LottoMadness extends JFrame{
         years.setEditable(false);
         row4.add(years);
         add(row4);
+
+        FlowLayout layout5 = new FlowLayout(FlowLayout.CENTER,10,10);
+        row5.setLayout(layout5);
+        row5.add(rateLabel);
+        rate.setEditable(true);
+        row5.add(rate);
+        add(row5);
 
         setVisible(true);
 
