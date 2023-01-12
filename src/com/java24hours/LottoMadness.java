@@ -43,7 +43,7 @@ public class LottoMadness extends JFrame{
     //Set up Row 5
     JPanel row5 = new JPanel();
     JLabel rateLabel = new JLabel("Rate: ", JLabel.RIGHT);
-    JTextField rate = new JTextField("100           ");
+    JTextField rate = new JTextField("100");
 
     public LottoMadness(){
         super("Lotto Madness");
