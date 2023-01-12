@@ -6,6 +6,28 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StopSign",
+            "request": "launch",
+            "mainClass": "com.java24hours.StopSign",
+            "projectName": "Java24Hours_7a0cb3e5"
+        },
+        {
+            "type": "java",
+            "name": "Launch PieFrame2",
+            "request": "launch",
+            "mainClass": "com.java24hours.PieFrame2",
+            "projectName": "Java24Hours_7a0cb3e5",
+            "args": "10000/255/218/128 3000/128/128/255 13000/0/0/255"
+        },
+        {
+            "type": "java",
+            "name": "Launch PieFrame",
+            "request": "launch",
+            "mainClass": "com.java24hours.PieFrame",
+            "projectName": "Java24Hours_7a0cb3e5"
+        },
+        {
+            "type": "java",
             "name": "Launch LottoMadness",
             "request": "launch",
             "mainClass": "LottoMadness",
