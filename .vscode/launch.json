@@ -6,6 +6,43 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Rewriter",
+            "request": "launch",
+            "mainClass": "com.java24hours.Rewriter",
+            "projectName": "Java24Hours_7a0cb3e5",
+            "args": "D:\\repos\\Java\\Java24Hours\\src\\com\\com\\java24hours\\com"
+        },
+        {
+            "type": "java",
+            "name": "Launch Configurator",
+            "request": "launch",
+            "mainClass": "com.java24hours.Configurator",
+            "projectName": "Java24Hours_7a0cb3e5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConfigWriter",
+            "request": "launch",
+            "mainClass": "com.java24hours.ConfigWriter",
+            "projectName": "Java24Hours_7a0cb3e5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Console",
+            "request": "launch",
+            "mainClass": "com.java24hours.Console",
+            "projectName": "Java24Hours_7a0cb3e5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ID3Reader",
+            "request": "launch",
+            "mainClass": "com.java24hours.ID3Reader",
+            "projectName": "Java24Hours_7a0cb3e5",
+            "args": "src"
+        },
+        {
+            "type": "java",
             "name": "Launch LottoMadness2",
             "request": "launch",
             "mainClass": "com.java24hours.LottoMadness2",
